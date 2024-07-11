@@ -17,9 +17,12 @@
     
     flex-direction: column;
     background-color: #333740; ;
-
+    overflow: scroll;
 }
-
+.main{
+    height: 100%;
+    width: 100%;
+}
 .Box{
     height: 15vh;
     width: 100vw;
@@ -195,4 +198,20 @@ nav{
 .carousel-inner{
     border-radius: 10px;
     
+}
+
+
+.fascilities{
+    width: 100%;
+    height: 70px;
+    border: 4px solid rgb(217, 205, 205);
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+.fascilities span img {
+    height: 20px;
+    width: 30px;
 }
